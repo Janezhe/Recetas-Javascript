@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Buscador de recetas</title>
+</head>
+<body>
+    <header class="fondo">
+        <div class="navegacion">
+            <div class="nav-description">
+                <span>Buscador de Recetas</span>
+            </div>
+            <div class="nav-inicio">
+                <a href="#">Inicio</a>
+            </div>
+            <div class="nav-favoritos">
+                <a href="#">Mis Favoritos</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="section-catalogo">
+            <h1>Inicio</h1>
+        </div>
+        <form class="formulario" id="form-categoria">
+            <label  class="text-category" for="categoria">Categoria</label>
+            <div class="list-category">
+                <Select id="list-menu" name="menu">
+                    <option value="">--Seleccione--</option>
+                    <option value="Beef">Beef</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Dessert">Dessert</option>
+                </Select>
+            </div>   
+        </form>
+    </section>
+    <section class="section_recetas">
+        <h2 class="section_nombre">Resultados</h2>
+        <div class="section_resultados">
+            <div class="destacado_bloque">
+                <div class="destacados bloque-1"></div>
+                <div class="destacados bloque-2"></div>
+                <div class="destacados bloque-3"></div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/app.js"></script>
+</html>
